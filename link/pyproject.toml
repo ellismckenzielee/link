@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "link"
+version = "0.1.0"
+description = ""
+authors = ["Ellis Lee <ellismckenzielee@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+boto3 = "^1.29.4"
+pytest = "^7.4.3"
+
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
